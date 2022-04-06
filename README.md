@@ -2,9 +2,9 @@
 
 ## Install from source 
 ```bash
-bash sox-local-installer.sh
+bash sox-local-installer.sh /sox/absolute/install/dir
 ```
-The whole process takes about more than half an hour.
+The whole process takes about half an hour. Be reminded that the `--prefix` argument must be absolute directory, or you will get a error about it.
 
 ## Install from conda-forge (recommended)
 This is the easiest way to install `Sox` without sudo/root access.
